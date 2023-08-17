@@ -1,3 +1,207 @@
-body{
-  background-color: pink;
+.navbar{
+  position:sticky;
+  top: 0;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  height:80px;
+  font-family: 'Martel Sans', sans-serif;
+  background-color: #fff;
+}
+
+.navbar img {
+  width: 3%; 
+  height: auto;
+  margin-right: 0%;
+}
+
+.navbar h1{
+  font-size: 35px;
+  margin-right: 52%;
+  font-family: 'Bubblegum Sans', cursive;
+  color: black;
+}
+.navbar a{ 
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  margin: 14px;
+}
+.navbar a:hover {
+ background-color:#f7e088;
+ border-radius: 150% 80% 150% 80%;
+}
+
+header{
+  background-image:url(https://img.freepik.com/free-photo/group-portrait-adorable-puppies_53876-64777.jpg?w=900&t=st=1690851870~exp=1690852470~hmac=ebebc40029c1ebc657872dfb2ead6f39b05c7dc672b2f7505e8f4f6d9f6413e5);
+  background-color:rgb(232,211,203);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 47%;
+  padding: 150px;
+  height:80px;
+  margin-top:20px;
+  }
+header h1{
+  font-family: 'Bubblegum Sans', cursive;
+  color: #143942; 
+  font-size: 45px;
+  margin-top:-5%;
+  margin-left:50%;
+}
+header p{
+font-size: 17px;
+font-family: 'Martel Sans', sans-serif;
+color: black;
+margin-top:0%;
+margin-left:50%;
+}
+.button{
+  margin-top:0%;
+  margin-left:50%;
+}
+
+.benefits_area img{
+  width: 50%;
+  margin-left: -14%;
+  margin-bottom: 6%;
+  background-color:#f7e088;
+  border-radius: 30% 30% 10% 10%;
+}
+.benefits_area {
+  display:flex;
+  font-family: 'Martel Sans', sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  margin-top: 10%;
+  line-height: 25px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+h3{
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 37px;
+  line-height : 40px;
+}
+ul {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;;
+}
+li {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+
+.testimonials_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: 'Martel Sans', sans-serif;
+}
+.testimonial {
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 80px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.testimonial img {
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+.author {
+  font-style: italic;
+}
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.galeria img {
+  max-width: 320px; 
+  max-height: 250px; 
+  object-fit: cover; 
+  object-position: center; 
+  margin: 5px;
+  border-radius: 7px;
+  cursor:url(https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-mono/48/Paw-Prints-icon.png), pointer;
+}
+.galeria img:hover {
+  transform:scale(1.1);
+}
+h2{  
+  font-family: 'Bubblegum Sans', cursive;
+  font-size: 45px;
+  color:rgba(20,57,66,255);
+  margin-left: 130px;
+}
+
+footer {
+  display: flex;
+  background-color: #f7e088;
+  padding: 50px;
+  margin-top:70px;
+  height: 189px;
+  justify-content: space-between;
+  font-family: 'Martel Sans', sans-serif;
+  font-size: 16px;
+}
+.footer_left {
+ margin-top: 18px;
+}
+.footer_left form {
+  display: flex;
+}
+input[type="email"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 17px;
+}
+button {
+  padding: 12px 30px;
+  background-color: rgba(20,57,66,255);
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-family: 'Martel Sans', sans-serif;
+}
+.footer_right ul {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  padding: 0;
+  margin: 0; 
+}
+.footer_right li {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  list-style:none;
+  font-size: 13px;
+}
+.footer_right a {
+  color: #333;
+  text-decoration: none;
+}
+.social_icons {
+  margin: -5px;
+  cursor: pointer;
+}
+.icon-link img {
+  width: 23px;
+  margin: 10px;
 }
