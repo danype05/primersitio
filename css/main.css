@@ -16,9 +16,9 @@
 }
 
 .navbar h1{
-  font-size: 35px;
-  margin-right: 52%;
-  font-family: 'Bubblegum Sans', cursive;
+  font-size: 27px;
+  margin-right: 50%;
+  font-family: monospace;
   color: black;
 }
 .navbar a{ 
@@ -34,32 +34,33 @@
 }
 
 header{
-  background-image:url(https://img.freepik.com/free-photo/group-portrait-adorable-puppies_53876-64777.jpg?w=900&t=st=1690851870~exp=1690852470~hmac=ebebc40029c1ebc657872dfb2ead6f39b05c7dc672b2f7505e8f4f6d9f6413e5);
-  background-color:rgb(232,211,203);
+  background-image:url(https://res.cloudinary.com/dfdawllrm/image/upload/v1692296357/landing/removal.ai__f5db17ff-aef2-4e16-99ab-ef45aac1c73b-portrait-lovely-dog-looking-away_jgkluk.png);
+  background-color:#f7e088;
   background-repeat: no-repeat;
-  background-position: left bottom;
-  background-size: 47%;
-  padding: 150px;
+  background-position: 20% bottom;
+  background-size: 50%;
+  padding: 160px 0;
   height:80px;
   margin-top:20px;
   }
+
 header h1{
-  font-family: 'Bubblegum Sans', cursive;
-  color: #143942; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: black; 
   font-size: 45px;
   margin-top:-5%;
-  margin-left:50%;
+  margin-left:45%;
 }
 header p{
 font-size: 17px;
 font-family: 'Martel Sans', sans-serif;
 color: black;
 margin-top:0%;
-margin-left:50%;
+margin-left:45%;
 }
 .button{
   margin-top:0%;
-  margin-left:50%;
+  margin-left:45%;
 }
 
 .benefits_area img{
@@ -173,8 +174,9 @@ input[type="email"] {
 }
 button {
   padding: 12px 30px;
-  background-color: rgba(20,57,66,255);
+  background-color: #FA786B;
   color: #fff;
+  font-size: 14px;
   border: none;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
