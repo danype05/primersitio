@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/> <!--Primer cambio -->
 </head>
 <body>
   <div class="navbar">
@@ -57,7 +59,7 @@
       </div>
     </section>
   
-  <h2> Nuestros clientes</h2>
+  <!--<h2> Nuestros clientes</h2>
   <div class="galeria">
     <img src="https://img.freepik.com/free-photo/cute-bengal-cat-looking-up_181624-34559.jpg?w=740&t=st=1690911235~exp=1690911835~hmac=3354cec01ea69c8b6cd1a4af18b69d4fcb04ec4ad7912000c0bbbf6082af508b">
     <img src="https://cdn.pixabay.com/photo/2022/11/09/14/14/dog-7580703_1280.jpg">
@@ -67,9 +69,28 @@
   
    
     <img src="https://img.freepik.com/free-photo/funny-happy-beagle-dog-walking-playing-park_176420-6453.jpg?w=900&t=st=1690911148~exp=1690911748~hmac=97467a63b62aebdf30f0b2c8516edbcfdec2b9c4ab1026e810b6b43b3da89e3f">
-  </div>
+  </div> -->
      
-  
+  <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="https://res.cloudinary.com/dfdawllrm/image/upload/v1692390129/landing/2_m86an9.png" alt=""/></div>
+    <div class="swiper-slide"><img src="https://res.cloudinary.com/dfdawllrm/image/upload/v1692390129/landing/3_tmnqik.png" alt=""></div>
+    <div class="swiper-slide"><img src="https://res.cloudinary.com/dfdawllrm/image/upload/v1692390128/landing/1_fylocl.png" alt=""></div> 
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
     <!-- Footer -->
     <footer>
       <div class="footer_left">
@@ -100,5 +121,8 @@
           <a href="#" class="icon-link"><img src="https://img.icons8.com/?size=512&id=60451&format=png" alt="Twitter"></a>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script> <!-- Segundo cambio -->
 </body>
 </html>
